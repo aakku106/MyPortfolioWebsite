@@ -200,7 +200,7 @@ Nice try, hacker! But you've been CAUGHT! 😎
   // SECURITY FIX: Validate and sanitize before storing
   if (!validateUserName(user)) {
     alert(
-      "Invalid name! Please use only letters, numbers, spaces, and basic punctuation (max 50 characters)."
+      "Invalid name! Please use only letters, numbers, spaces, and basic punctuation (max 50 characters).",
     );
     return;
   }
